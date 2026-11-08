@@ -1,52 +1,156 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>プライバシーポリシー | FavNote</title>
+  <meta name="description" content="FavNoteのプライバシーポリシーです。記録は端末内に保存し、広告や解析は使いません。">
   <style>
+    :root {
+      --page: #f4f0e8;
+      --card: #ffffff;
+      --text: #1c1916;
+      --muted: #5f5851;
+      --caption: #868077;
+      --gold: #b58e4a;
+      --gold-line: #dcc9a8;
+      --header: #141414;
+    }
+    * { box-sizing: border-box; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      margin: 0;
+      background: var(--page);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Helvetica Neue", sans-serif;
+      line-height: 1.8;
+    }
+    header {
+      background: var(--header);
+      color: #fff;
+      padding: 28px 20px 24px;
+    }
+    header .wrap, main, footer .wrap {
       max-width: 760px;
       margin: 0 auto;
-      padding: 32px 20px;
-      line-height: 1.9;
-      color: #333;
-      background: #faf8f3;
     }
-    h1, h2 { color: #8b7448; }
-    h1 { border-bottom: 2px solid #c9b48b; padding-bottom: 12px; }
-    h2 { margin-top: 32px; }
+    .brand {
+      color: var(--gold);
+      font-size: 13px;
+      letter-spacing: 0.16em;
+      font-weight: 700;
+    }
+    h1 {
+      margin: 8px 0 6px;
+      font-size: 26px;
+      line-height: 1.3;
+    }
+    header p {
+      margin: 0;
+      color: #d8c7a4;
+      font-size: 15px;
+    }
+    main { padding: 20px 20px 48px; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--gold-line);
+      border-radius: 16px;
+      padding: 20px 18px 8px;
+      margin: 0 0 16px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      color: var(--gold);
+      font-size: 18px;
+    }
+    p, li { color: var(--text); font-size: 16px; }
+    ul { padding-left: 1.2em; }
+    li { margin: 0 0 8px; }
     a { color: #795e31; }
+    .note { color: var(--muted); font-size: 14px; }
+    footer {
+      padding: 8px 20px 40px;
+      color: var(--caption);
+      font-size: 13px;
+    }
+    footer p { margin: 0 0 8px; color: var(--caption); font-size: 13px; }
+    @media (min-width: 720px) {
+      h1 { font-size: 32px; }
+      section { padding: 24px 24px 10px; }
+    }
   </style>
 </head>
 <body>
-  <h1>FavNote プライバシーポリシー</h1>
-  <p>最終更新日：2026年10月28日</p>
+  <header>
+    <div class="wrap">
+      <div class="brand">FavNote</div>
+      <h1>プライバシーポリシー</h1>
+      <p>最終更新日：2026年11月9日</p>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>はじめに</h2>
+      <p>FavNote（以下「本アプリ」）は、みた作品や気になるもの、自然観察や趣味など、自分で分けたカテゴリーに記録を残すアプリです。映画やアニメのほか、マンガ、ゲーム、お店めぐりなどにも使えます。</p>
+      <p>本ポリシーでは、本アプリにおけるデータの取り扱いを説明します。</p>
+    </section>
 
-  <p>FavNote（以下「本アプリ」）は、映画・ドラマ・アニメなどの鑑賞記録を管理するアプリです。本ポリシーでは、ユーザーデータの取り扱いについて説明します。</p>
+    <section>
+      <h2>1. データの保存</h2>
+      <p>入力した記録、カテゴリー、項目の設定、画像、テーマなどの情報は、原則としてその端末のアプリ領域に保存します。記録は端末内のデータベース、画像は端末内のファイルとして保持します。</p>
+      <p>写真を付けるときは、端末のフォトライブラリから画像を選びます。選んだ画像は縮小してアプリ内へコピーし、以降の表示はアプリ内のコピーを使います。元の写真はライブラリに残ります。開発者が運営するサーバーへ記録や画像を送る仕組みはありません。</p>
+    </section>
 
-  <h2>1. データの保存と収集</h2>
-  <p>本アプリで入力した記録、カテゴリー、画像、設定情報は、原則としてユーザーの端末内に保存されます。開発者が運営するサーバーへの送信や、開発者による個人データの収集は行いません。</p>
+    <section>
+      <h2>2. アカウントと外部サービス</h2>
+      <p>本アプリの利用に、アカウント登録やログインは必要ありません。広告の表示、利用状況の解析、トラッキングのための外部サービスは使用していません。広告識別子の取得や、アプリによるトラッキングの依頼も行いません。</p>
+      <p>購入やファイルの共有では、端末のアプリストアや、ユーザーが選んだ共有先を使います。これらは各サービスの仕組みであり、開発者がカード番号や共有先のアカウント情報を直接受け取ることはありません。</p>
+    </section>
 
-  <h2>2. アカウントと外部サービス</h2>
-  <p>本アプリの利用にアカウント登録やログインは必要ありません。広告配信や利用状況分析のための外部サービスは使用していません。</p>
+    <section>
+      <h2>3. バックアップとデータ共有</h2>
+      <p>ユーザーは、設定から CSV または Zip を書き出し、端末の共有機能で保存や送信ができます。保存先・共有先での取り扱いは、各サービスのプライバシーポリシーに従います。</p>
+      <p>Zip は FavNote で読み込むためのバックアップです。書き出したファイルの管理はユーザー自身で行ってください。</p>
+      <p>このほか、端末側のバックアップ設定により、アプリ内のデータが含まれる場合があります。</p>
+      <ul>
+        <li>iPhone では、iCloudバックアップやコンピュータへのバックアップの対象になることがあります。</li>
+        <li>Android では、端末のバックアップ設定により、Googleアカウントへアプリデータが含まれることがあります。</li>
+      </ul>
+      <p class="note">OSや機種をまたいだ Zip の復元については、設計上は同じ形式ですが、実機での相互確認は完了していません。動作を保証するものではありません。</p>
+    </section>
 
-  <h2>3. バックアップとデータ共有</h2>
-  <p>ユーザーはCSVやZIP形式でデータを出力し、自身の操作で保存または共有できます。保存先や共有先での取り扱いは、各サービスのプライバシーポリシーに従います。</p>
-  <p>また、端末のAndroidバックアップ設定により、アプリのデータがGoogleアカウントにバックアップされる場合があります。</p>
+    <section>
+      <h2>4. アプリ内購入</h2>
+      <p>本アプリでは、買い切り型のプレミアム機能を購入できます。決済は、ご利用中の端末のアプリストア（App Store または Google Play）が処理します。開発者がクレジットカード情報を直接取得することはありません。</p>
+      <p>購入の状態は端末側のストアアカウントに紐づきます。再インストール後は、アプリ内の「有料版を復元」から戻してください。Zip には購入状態は含まれません。</p>
+    </section>
 
-  <h2>4. アプリ内購入</h2>
-  <p>本アプリではGoogle Playを通じて、買い切り型のプレミアム機能を購入できます。決済はGoogle Playによって処理され、開発者がクレジットカード情報を直接取得することはありません。</p>
+    <section>
+      <h2>5. 端末の権限</h2>
+      <p>画像を記録に付けるため、フォトライブラリへのアクセスを求めることがあります。カメラで撮影する機能はありません。権限を許可しなくても、画像以外の記録は利用できます。</p>
+    </section>
 
-  <h2>5. データの削除</h2>
-  <p>ユーザーは本アプリ内のデータ初期化機能を使用して記録を削除できます。また、アプリのデータ消去やアンインストールにより、端末内のデータを削除できます。ただし、ユーザー自身が出力したバックアップや、Androidの自動バックアップは別途管理が必要な場合があります。</p>
+    <section>
+      <h2>6. データの削除</h2>
+      <p>アプリ内の「全データ初期化」で、記録やカスタマイズを初期状態に戻せます。アプリの削除や、端末側のデータ消去でも、その端末内の記録と画像は削除されます。</p>
+      <p>ユーザーが書き出した CSV / Zip や、端末のOSバックアップに残ったデータは、別途管理・削除が必要です。</p>
+    </section>
 
-  <h2>6. ポリシーの変更</h2>
-  <p>本ポリシーは、アプリの機能変更や法令への対応などのために更新される場合があります。変更内容は本ページに掲載します。</p>
+    <section>
+      <h2>7. ポリシーの変更</h2>
+      <p>本ポリシーは、機能の変更や法令への対応のために更新する場合があります。変更内容は本ページに掲載します。</p>
+    </section>
 
-  <h2>7. お問い合わせ</h2>
-  <p>本ポリシーに関するお問い合わせ：<a href="mailto:sea.loves.you.24@gmail.com">sea.loves.you.24@gmail.com</a></p>
+    <section>
+      <h2>8. お問い合わせ</h2>
+      <p>本ポリシーに関するお問い合わせ：<a href="mailto:sea.loves.you.24@gmail.com">sea.loves.you.24@gmail.com</a></p>
+      <p>使い方や不具合は、サポートページもご覧ください。<br>
+        <a href="favnote-support.html">FavNote サポート</a></p>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p>Copyright 2026 S.L.Y.</p>
+    </div>
+  </footer>
 </body>
 </html>
